@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922A882D23247D6D006B2115 /* WizardEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922A882C23247D6D006B2115 /* WizardEdit.swift */; };
 		923B6562232360500002EE06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B6561232360500002EE06 /* AppDelegate.swift */; };
 		923B6564232360500002EE06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B6563232360500002EE06 /* SceneDelegate.swift */; };
 		923B6567232360500002EE06 /* RxMinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 923B6565232360500002EE06 /* RxMinder.xcdatamodeld */; };
-		923B6569232360500002EE06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B6568232360500002EE06 /* ContentView.swift */; };
+		923B6569232360500002EE06 /* WizardGetPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B6568232360500002EE06 /* WizardGetPhoto.swift */; };
 		923B656B232360520002EE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923B656A232360520002EE06 /* Assets.xcassets */; };
 		923B656E232360520002EE06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923B656D232360520002EE06 /* Preview Assets.xcassets */; };
 		923B6571232360520002EE06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923B656F232360520002EE06 /* LaunchScreen.storyboard */; };
+		92BBB7B82324B7FF009C738F /* WizardEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BBB7B72324B7FF009C738F /* WizardEnd.swift */; };
+		92D5928A23243A41009A51A9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D5928923243A41009A51A9 /* Store.swift */; };
+		92DA98C623241BF200E8F138 /* WizardStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA98C523241BF200E8F138 /* WizardStart.swift */; };
+		92DA98C82324248000E8F138 /* WizardCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DA98C72324248000E8F138 /* WizardCamera.swift */; };
+		92F30A9823240259007C8B6E /* LatestPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F30A9723240259007C8B6E /* LatestPhoto.swift */; };
+		92F30A9A2324152C007C8B6E /* MedicationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F30A992324152C007C8B6E /* MedicationsList.swift */; };
+		92F30A9C23241554007C8B6E /* RxTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F30A9B23241554007C8B6E /* RxTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		922A882C23247D6D006B2115 /* WizardEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardEdit.swift; sourceTree = "<group>"; };
 		923B655E232360500002EE06 /* RxMinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		923B6561232360500002EE06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		923B6563232360500002EE06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		923B6566232360500002EE06 /* RxMinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RxMinder.xcdatamodel; sourceTree = "<group>"; };
-		923B6568232360500002EE06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		923B6568232360500002EE06 /* WizardGetPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardGetPhoto.swift; sourceTree = "<group>"; };
 		923B656A232360520002EE06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		923B656D232360520002EE06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		923B6570232360520002EE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		923B6572232360520002EE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92BBB7B72324B7FF009C738F /* WizardEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardEnd.swift; sourceTree = "<group>"; };
+		92D5928923243A41009A51A9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		92DA98C523241BF200E8F138 /* WizardStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardStart.swift; sourceTree = "<group>"; };
+		92DA98C72324248000E8F138 /* WizardCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardCamera.swift; sourceTree = "<group>"; };
+		92F30A9723240259007C8B6E /* LatestPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestPhoto.swift; sourceTree = "<group>"; };
+		92F30A992324152C007C8B6E /* MedicationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationsList.swift; sourceTree = "<group>"; };
+		92F30A9B23241554007C8B6E /* RxTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +76,15 @@
 			children = (
 				923B6561232360500002EE06 /* AppDelegate.swift */,
 				923B6563232360500002EE06 /* SceneDelegate.swift */,
-				923B6568232360500002EE06 /* ContentView.swift */,
+				92F30A9723240259007C8B6E /* LatestPhoto.swift */,
+				92F30A992324152C007C8B6E /* MedicationsList.swift */,
+				92DA98C523241BF200E8F138 /* WizardStart.swift */,
+				92DA98C72324248000E8F138 /* WizardCamera.swift */,
+				923B6568232360500002EE06 /* WizardGetPhoto.swift */,
+				922A882C23247D6D006B2115 /* WizardEdit.swift */,
+				92BBB7B72324B7FF009C738F /* WizardEnd.swift */,
+				92F30A9B23241554007C8B6E /* RxTypes.swift */,
+				92D5928923243A41009A51A9 /* Store.swift */,
 				923B656A232360520002EE06 /* Assets.xcassets */,
 				923B656F232360520002EE06 /* LaunchScreen.storyboard */,
 				923B6572232360520002EE06 /* Info.plist */,
@@ -150,8 +174,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				923B6562232360500002EE06 /* AppDelegate.swift in Sources */,
+				922A882D23247D6D006B2115 /* WizardEdit.swift in Sources */,
+				92BBB7B82324B7FF009C738F /* WizardEnd.swift in Sources */,
 				923B6564232360500002EE06 /* SceneDelegate.swift in Sources */,
-				923B6569232360500002EE06 /* ContentView.swift in Sources */,
+				92F30A9A2324152C007C8B6E /* MedicationsList.swift in Sources */,
+				92DA98C82324248000E8F138 /* WizardCamera.swift in Sources */,
+				92DA98C623241BF200E8F138 /* WizardStart.swift in Sources */,
+				92D5928A23243A41009A51A9 /* Store.swift in Sources */,
+				92F30A9823240259007C8B6E /* LatestPhoto.swift in Sources */,
+				92F30A9C23241554007C8B6E /* RxTypes.swift in Sources */,
+				923B6569232360500002EE06 /* WizardGetPhoto.swift in Sources */,
 				923B6567232360500002EE06 /* RxMinder.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
